@@ -174,7 +174,7 @@ export default class Videojuego extends Component {
 
     return (
       <div>
-        <h4> Dinosaurio </h4>
+        <h4> Juegos </h4>
         {currentTutorial ? (
           <div className="edit-form">
             <form>
@@ -250,32 +250,32 @@ export default class Videojuego extends Component {
 
         <div>
           <ReactionButton
-            reactionType="Like"
+            reactionType="👍"
             onClick={() => this.handleReactionClick("like")}
             count={reactions.like}
           />
           <ReactionButton
-            reactionType="Love"
+            reactionType="❤️"
             onClick={() => this.handleReactionClick("love")}
             count={reactions.love}
           />
           <ReactionButton
-            reactionType="Haha"
+            reactionType="😂"
             onClick={() => this.handleReactionClick("haha")}
             count={reactions.haha}
           />
           <ReactionButton
-            reactionType="Wow"
+            reactionType="😲"
             onClick={() => this.handleReactionClick("wow")}
             count={reactions.wow}
           />
           <ReactionButton
-            reactionType="Sad"
+            reactionType="😢"
             onClick={() => this.handleReactionClick("sad")}
             count={reactions.sad}
           />
           <ReactionButton
-            reactionType="Angry"
+            reactionType="😠"
             onClick={() => this.handleReactionClick("angry")}
             count={reactions.angry}
           />

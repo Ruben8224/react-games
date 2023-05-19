@@ -1,11 +1,11 @@
 import { Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/App.css";
-import VideojuegoList from "../componentes/game-list.component";
+import VideojuegoList from "../reacciones02/game-list.component";
 import { Alumno, Imagen } from "./Inicio";
 import Header from "./Header";
 import {Switch } from "react-router-dom/cjs/react-router-dom.min";
-import AddVideojuego from "../componentes/add-videogame.component";
+import AddVideojuego from "../reacciones02/add-videogame.component";
 
 const App = () => {
   return (

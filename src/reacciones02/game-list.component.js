@@ -85,6 +85,7 @@ export default class VideojuegoList extends Component {
                     >
                       {Datos_List.title}
                     </button>
+                    <img src= {Datos_List.url} alt="a" ></img>
                   </div>
                 </div>
               );

@@ -137,7 +137,7 @@ export default class AddVideojuego extends Component {
                 onChange={this.onChangeDescription}
                 name="description"
               />
-            </div>
+            </div>        
 
             <div>
                 <form onSubmit= {(event)=>{
