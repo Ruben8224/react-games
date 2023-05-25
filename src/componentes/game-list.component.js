@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import TutorialDataService from "../servicios/game.service";
+import TutorialDataService from "../services/game.service";
 import "../styles/Mostrar.css";
 
 import Videojuego from "./game.component";
@@ -85,7 +85,6 @@ export default class VideojuegoList extends Component {
                     >
                       {Datos_List.title}
                     </button>
-                    <img src= {Datos_List.url} alt="a" ></img>
                   </div>
                 </div>
               );
