@@ -1,6 +1,6 @@
 class KafkaService {
   //url = 'https://your-kafka-express-service-kafka-adsoftsito.cloud.okteto.net/';
-  url = 'my-kafka-0.my-kafka-headless.rubencastillo1234.svc.cluster.local:9092';
+  url = 'https://python-consumer-rubencastillo1234.cloud.okteto.net/';
  
   reaction = async (name) => {
    await fetch(this.url + 'like?name=' + name, {
